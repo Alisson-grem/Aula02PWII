@@ -1,14 +1,37 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+body {
+  padding: 50px;
+  background-color: aliceblue;
+}
+h2 {
+  color:dimgray;
+}
+.App {
+  display: flex;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-  color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #EEF6FE;
+p {
+  background-color: silver;
+  padding: 10px; 
+  border-radius: 100px;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  width: 30%;
+  background-color: silver;
+  position: relative;
+  height: 120hv;
+  align-items: center;
+  text-align: center;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 100px;
+
+}
+
+.foto {
+  border-radius: 100px;
 }
